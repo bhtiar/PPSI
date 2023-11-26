@@ -81,8 +81,8 @@ if (isset($_POST['delete_operator']) && isset($_POST['username'])) {
           <div class="x_content">
             <!-- Isi disini -->
             <!-- Tabel Data Operator -->
-            <table id="datatable-responsive"
-              class="table table-striped table-bordered dt-responsive nowrap" cellspacing="0" width="100%">
+            <table id="datatable-responsive" class="table table-striped table-bordered dt-responsive nowrap"
+              cellspacing="0" width="100%">
               <thead>
                 <tr>
                   <th>Foto</th>
@@ -94,7 +94,6 @@ if (isset($_POST['delete_operator']) && isset($_POST['username'])) {
                   <th>Email</th>
                   <th>Ver Code</th>
                   <th>Action</th>
-
                 </tr>
               </thead>
 
